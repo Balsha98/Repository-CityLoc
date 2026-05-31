@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Balša Bazović">
+    <link rel="icon" href="assets/media/app_icon.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="anonymous" defer></script>
+    <script src="assets/js/script.js" defer></script>
+    <title>Home | CityLoc</title>
+</head>
+
+<body>
+    <nav>
+        <img src="assets/media/app_logo.png" alt="Logo">
+        <p>CityLoc</p>
+    </nav>
+
+    <section>
+        <div id="welcome_div">
+            <h2>Welcome to CityLoc!</h2>
+        </div>
+        <div id="city_info_div">
+            <div id="map_div">
+                <select id="select_box">
+                    <option value="1">MyLoc</option>
+                    <option value="2">Dubai</option>
+                    <option value="3">Dallas</option>
+                    <option value="4">Tokyo</option>
+                    <option value="5">Sydney</option>
+                </select>
+                <div id="top_info_div">
+                    <div class="data_divs">
+                        <p>Weather</p>
+                        <div id="wth_div">
+                            <img id="icn" src="assets/media/placeholder.png" alt="Weather Icon">
+                            <span id="wth">-----</span>
+                        </div>
+                    </div>
+                    <div class="data_divs city_data_div">
+                        <p>City</p>
+                        <span id="cty">-----</span>
+                    </div>
+                    <div class="data_divs">
+                        <p>Time</p>
+                        <span id="lcl">-----</span>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom_info_div">
+                <div class="data_divs">
+                    <p>Latitude</p>
+                    <span id="lat">-----</span>
+                </div>
+                <div class="data_divs">
+                    <p>Longitude</p>
+                    <span id="lng">-----</span>
+                </div>
+                <div class="data_divs">
+                    <p>Altitude</p>
+                    <span id="alt">-----</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 CityLoc, Inc. | All rights reserved.
+    </footer>
+
+    <script src="cordova.js"></script>
+</body>
+
+</html>
