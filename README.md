@@ -1,2 +1,3 @@
-# Repository-CityLoc
-CityLoc - Simple Cordova Weather Tracker
+# CityLoc - Simple Cordova Weather Tracker
+
+The README file will soon be updated.
