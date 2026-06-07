@@ -1,3 +1,3 @@
-# CityLoc - Simple Cordova Weather Tracker
+# CityLoc - City Weather Tracker
 
 The README file will soon be updated.
